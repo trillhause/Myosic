@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0017085D19F309C800CF554D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0017085C19F309C800CF554D /* MediaPlayer.framework */; };
+		006ACC8D19F3FF50005B2451 /* default.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 006ACC8C19F3FF50005B2451 /* default.jpg */; };
+		00A3310F19F3B2F20071ACE8 /* fist.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A3310A19F3B2F20071ACE8 /* fist.png */; };
+		00A3311019F3B2F20071ACE8 /* spread.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A3310B19F3B2F20071ACE8 /* spread.png */; };
+		00A3311119F3B2F20071ACE8 /* out.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A3310C19F3B2F20071ACE8 /* out.png */; };
+		00A3311219F3B2F20071ACE8 /* in.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A3310D19F3B2F20071ACE8 /* in.png */; };
+		00A3311319F3B2F20071ACE8 /* pinky.png in Resources */ = {isa = PBXBuildFile; fileRef = 00A3310E19F3B2F20071ACE8 /* pinky.png */; };
 		00C2FEF719F2A9E20089B740 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2FEF619F2A9E20089B740 /* main.m */; };
 		00C2FEFA19F2A9E20089B740 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2FEF919F2A9E20089B740 /* AppDelegate.m */; };
 		00C2FEFD19F2A9E20089B740 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2FEFC19F2A9E20089B740 /* ViewController.m */; };
@@ -14,6 +21,9 @@
 		00C2FF0219F2A9E20089B740 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C2FF0119F2A9E20089B740 /* Images.xcassets */; };
 		00C2FF0519F2A9E20089B740 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00C2FF0319F2A9E20089B740 /* LaunchScreen.xib */; };
 		00C2FF1119F2A9E20089B740 /* MyoExperimentTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C2FF1019F2A9E20089B740 /* MyoExperimentTests.m */; };
+		00C2FF1B19F2AA900089B740 /* MyoKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C2FF1A19F2AA900089B740 /* MyoKit.framework */; };
+		00C2FF1D19F2AAAD0089B740 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C2FF1C19F2AAAD0089B740 /* CoreBluetooth.framework */; };
+		00C2FF1F19F2AAC50089B740 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C2FF1E19F2AAC50089B740 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0017085C19F309C800CF554D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		006ACC8C19F3FF50005B2451 /* default.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = default.jpg; sourceTree = "<group>"; };
+		00A3310A19F3B2F20071ACE8 /* fist.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fist.png; sourceTree = "<group>"; };
+		00A3310B19F3B2F20071ACE8 /* spread.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spread.png; sourceTree = "<group>"; };
+		00A3310C19F3B2F20071ACE8 /* out.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = out.png; sourceTree = "<group>"; };
+		00A3310D19F3B2F20071ACE8 /* in.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = in.png; sourceTree = "<group>"; };
+		00A3310E19F3B2F20071ACE8 /* pinky.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pinky.png; sourceTree = "<group>"; };
 		00C2FEF119F2A9E20089B740 /* MyoExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyoExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C2FEF519F2A9E20089B740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00C2FEF619F2A9E20089B740 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +57,9 @@
 		00C2FF0A19F2A9E20089B740 /* MyoExperimentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyoExperimentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00C2FF0F19F2A9E20089B740 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00C2FF1019F2A9E20089B740 /* MyoExperimentTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyoExperimentTests.m; sourceTree = "<group>"; };
+		00C2FF1A19F2AA900089B740 /* MyoKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MyoKit.framework; sourceTree = "<group>"; };
+		00C2FF1C19F2AAAD0089B740 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		00C2FF1E19F2AAC50089B740 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +67,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0017085D19F309C800CF554D /* MediaPlayer.framework in Frameworks */,
+				00C2FF1F19F2AAC50089B740 /* SystemConfiguration.framework in Frameworks */,
+				00C2FF1D19F2AAAD0089B740 /* CoreBluetooth.framework in Frameworks */,
+				00C2FF1B19F2AA900089B740 /* MyoKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,9 @@
 		00C2FEE819F2A9E20089B740 = {
 			isa = PBXGroup;
 			children = (
+				0017085C19F309C800CF554D /* MediaPlayer.framework */,
+				00C2FF1E19F2AAC50089B740 /* SystemConfiguration.framework */,
+				00C2FF1C19F2AAAD0089B740 /* CoreBluetooth.framework */,
 				00C2FEF319F2A9E20089B740 /* MyoExperiment */,
 				00C2FF0D19F2A9E20089B740 /* MyoExperimentTests */,
 				00C2FEF219F2A9E20089B740 /* Products */,
@@ -81,11 +108,18 @@
 		00C2FEF319F2A9E20089B740 /* MyoExperiment */ = {
 			isa = PBXGroup;
 			children = (
+				00C2FF1A19F2AA900089B740 /* MyoKit.framework */,
 				00C2FEF819F2A9E20089B740 /* AppDelegate.h */,
 				00C2FEF919F2A9E20089B740 /* AppDelegate.m */,
 				00C2FEFB19F2A9E20089B740 /* ViewController.h */,
 				00C2FEFC19F2A9E20089B740 /* ViewController.m */,
 				00C2FEFE19F2A9E20089B740 /* Main.storyboard */,
+				006ACC8C19F3FF50005B2451 /* default.jpg */,
+				00A3310A19F3B2F20071ACE8 /* fist.png */,
+				00A3310B19F3B2F20071ACE8 /* spread.png */,
+				00A3310C19F3B2F20071ACE8 /* out.png */,
+				00A3310D19F3B2F20071ACE8 /* in.png */,
+				00A3310E19F3B2F20071ACE8 /* pinky.png */,
 				00C2FF0119F2A9E20089B740 /* Images.xcassets */,
 				00C2FF0319F2A9E20089B740 /* LaunchScreen.xib */,
 				00C2FEF419F2A9E20089B740 /* Supporting Files */,
@@ -168,6 +202,11 @@
 				TargetAttributes = {
 					00C2FEF019F2A9E20089B740 = {
 						CreatedOnToolsVersion = 6.0.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					00C2FF0919F2A9E20089B740 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -199,9 +238,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A3311119F3B2F20071ACE8 /* out.png in Resources */,
 				00C2FF0019F2A9E20089B740 /* Main.storyboard in Resources */,
+				00A3310F19F3B2F20071ACE8 /* fist.png in Resources */,
 				00C2FF0519F2A9E20089B740 /* LaunchScreen.xib in Resources */,
+				00A3311219F3B2F20071ACE8 /* in.png in Resources */,
+				006ACC8D19F3FF50005B2451 /* default.jpg in Resources */,
 				00C2FF0219F2A9E20089B740 /* Images.xcassets in Resources */,
+				00A3311019F3B2F20071ACE8 /* spread.png in Resources */,
+				00A3311319F3B2F20071ACE8 /* pinky.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +388,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyoExperiment",
+				);
 				INFOPLIST_FILE = MyoExperiment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +402,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MyoExperiment",
+				);
 				INFOPLIST_FILE = MyoExperiment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -412,6 +465,7 @@
 				00C2FF1619F2A9E20089B740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		00C2FF1719F2A9E20089B740 /* Build configuration list for PBXNativeTarget "MyoExperimentTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +474,7 @@
 				00C2FF1919F2A9E20089B740 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
