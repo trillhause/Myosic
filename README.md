@@ -9,7 +9,7 @@ This is a easy, efficient and most simplistic way to control music that everyone
 
 
 ScreenShots- 
-
+![alt tag](https://github.com/millingab/millin.gabani.me/blob/master/img/myosic/0.png)
 ![alt tag](https://github.com/millingab/Myo-sic/blob/master/ScreenShots/IMG_2755.PNG)
 ![alt tag](https://github.com/millingab/Myo-sic/blob/master/ScreenShots/IMG_2756.PNG)
 ![alt tag](https://github.com/millingab/Myo-sic/blob/master/ScreenShots/IMG_2757.PNG)
